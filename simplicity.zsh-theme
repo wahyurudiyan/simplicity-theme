@@ -14,12 +14,13 @@ green="%F{#539165}"
 purple="%F{#AA77FF}"
 yellow="%F{#F7C04A}"
 turqoise="%F{#19A7CE}"
+red="%F{#E30022}"
 
 # git
-ZSH_THEME_GIT_PROMPT_PREFIX="%{${white}%} "
+ZSH_THEME_GIT_PROMPT_PREFIX="%{${white}%}git:"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
 ZSH_THEME_GIT_PROMPT_CLEAN=" %{${green}%}󱓏 "
-ZSH_THEME_GIT_PROMPT_DIRTY=" %{${yellow}%}󱓌 "
+ZSH_THEME_GIT_PROMPT_DIRTY=" %{${red}%}󱓌 "
 
 # Set username
 # Set username color to purple
